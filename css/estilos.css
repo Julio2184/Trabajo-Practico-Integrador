@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 nav .container-fluid{
     margin-left: 50px;
 }
@@ -103,9 +111,7 @@ h5{
 }
 
 #lugar-fecha .row{ 
-    margin-top: 25px;  
-    padding-top: 0px;
-    padding-bottom: 16px;
+    margin-top: 10px;      
 }
 
 #lugar-fecha p{
@@ -134,34 +140,39 @@ body .formulario-titulo{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 12px;
+    margin-top: 12px;    
 }
 
-.formulario .row{
-    margin-bottom: 25px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+#formulario .row{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
 }
 
 .formulario-titulo span{
     text-decoration: underline;
 }
 
-.formulario .btn{
+#formulario .btn{
     background-color: rgb(66, 163, 9);
-    padding-right:  47.5%;
-    padding-left: 47.5%;
+    padding-right:  47%;
+    padding-left: 47%;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
     border: 2px solid rgba(65, 163, 9, 0.87);
     border-radius: 4px;
     box-shadow: 1px 1px 1px rgb(247, 240, 240);       
+}
+
+#formulario .btn:hover{
+    color: rgb(238, 236, 236);    
 }
 
 footer .navbar{
     padding-left: 12% ;
     padding-top: 20px;
     padding-bottom: 20px;
-    text-align: center;    
+    text-align: center;        
 }
 
 footer .nav-item{
