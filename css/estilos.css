@@ -1,0 +1,175 @@
+nav .container-fluid{
+    margin-left: 50px;
+}
+
+nav .collapse{
+    margin-right: 50px;
+}
+
+
+.nav-link span{
+    color: green;
+}
+
+.nav-link span:hover{
+    color: rgb(47, 219, 47);
+}
+
+
+body .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1em;
+}
+
+h3{
+    font-size: 0.9em;
+}
+
+h4{
+    font-size: 0.7em;
+}
+
+h5{
+    color: white;
+    font-size: 1.7em;
+    font-style: bold;
+}
+
+#conferencia .card-img{
+    opacity: 3;
+}
+
+#conferencia p{
+    color: white;    
+}
+
+#conferencia .card-img-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align:right;    
+    margin-right: 5%;
+    margin-left: 60%;
+}
+
+#conferencia .boton-orador{
+    margin-top: 25px;
+    margin-right: 20px; 
+    padding: 8px 10px;
+    font-size: 0.9em;
+    font-weight: bold;    
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgb(247, 240, 240);
+    background-color: transparent;
+    color: rgb(255, 251, 251);
+}
+
+#conferencia .boton-orador:hover{
+    color: rgb(224, 223, 223);       
+}
+
+#conferencia .boton-ticket{    
+    
+    padding: 8px 10px;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 1px solid rgba(146, 145, 145, 0.007);
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgb(61, 196, 55);
+    background-color: rgb(61, 196, 49);
+    color: rgb(255, 255, 255);
+}
+
+#conferencia .boton-ticket:hover{    
+    color: rgb(231, 230, 230);    
+}
+
+
+#oradores .row{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#lugar-fecha .row{ 
+    margin-top: 25px;  
+    padding-top: 0px;
+    padding-bottom: 16px;
+}
+
+#lugar-fecha p{
+    color: white;
+}
+
+
+#lugar-fecha button{
+    border-bottom: 4px ;
+    margin-top: 5px;
+    margin-right: 20px; 
+    padding: 8px 10px;
+    font-size: 1em;
+    border: 2px solid rgb(146, 145, 145);
+    border-radius:1px;
+    background-color: transparent;
+    color: rgb(194, 194, 194);
+}
+
+#lugar-fecha button:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: white; 
+}
+
+body .formulario-titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.formulario .row{
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formulario-titulo span{
+    text-decoration: underline;
+}
+
+.formulario .btn{
+    background-color: rgb(66, 163, 9);
+    padding-right:  47.5%;
+    padding-left: 47.5%;
+    border: 2px solid rgba(65, 163, 9, 0.87);
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgb(247, 240, 240);       
+}
+
+footer .navbar{
+    padding-left: 12% ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;    
+}
+
+footer .nav-item{
+    margin-right: 50px;    
+}
+
+
+
+
+
+
