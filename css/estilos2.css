@@ -1,0 +1,34 @@
+h2{
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    margin-top: 8%;
+}
+
+footer .navbar{
+    padding-left: 12% ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;        
+}
+
+footer .nav-item{
+    margin-right: 50px;
+    margin-bottom: 0px;
+    width: 100%;    
+}
+
+.btn-form {
+    background: #96c93e;
+    color: #fff !important;
+  }
+  .btn-form:hover { background: #74aa17; }
